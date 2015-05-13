@@ -33,7 +33,7 @@
 
 /* Begin PBXFileReference section */
 		3922703E1B02CF43008EF652 /* Memory_mangement.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Memory_mangement.cpp; sourceTree = "<group>"; };
-		3922703F1B02CF43008EF652 /* Memory_mangement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Memory_mangement.h; sourceTree = "<group>"; };
+		3922703F1B02CF43008EF652 /* Password.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Password.h; sourceTree = "<group>"; };
 		392270411B02CF50008EF652 /* EaseOfAccesss.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EaseOfAccesss.h; path = ../EaseOfAccesss.h; sourceTree = "<group>"; };
 		39A472C61B02CE24002C07E5 /* BlueWing2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BlueWing2.png; sourceTree = "<group>"; };
 		39A472C71B02CE24002C07E5 /* BlueWing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BlueWing.png; sourceTree = "<group>"; };
@@ -100,13 +100,13 @@
 				39EF897C1B02CCC4002FBEF9 /* DataViewController.h */,
 				39EF897F1B02CCC4002FBEF9 /* ModelController.h */,
 				39EF89791B02CCC4002FBEF9 /* RootViewController.h */,
-				3922703F1B02CF43008EF652 /* Memory_mangement.h */,
+				3922703F1B02CF43008EF652 /* Password.h */,
+				3922703E1B02CF43008EF652 /* Memory_mangement.cpp */,
 				39EF89771B02CCC4002FBEF9 /* AppDelegate.m */,
 				39EF897A1B02CCC4002FBEF9 /* RootViewController.m */,
 				39EF897D1B02CCC4002FBEF9 /* DataViewController.m */,
 				39EF89801B02CCC4002FBEF9 /* ModelController.m */,
 				39EF89821B02CCC4002FBEF9 /* Main.storyboard */,
-				3922703E1B02CF43008EF652 /* Memory_mangement.cpp */,
 				39A472C61B02CE24002C07E5 /* BlueWing2.png */,
 				39A472C71B02CE24002C07E5 /* BlueWing.png */,
 				39EF89851B02CCC4002FBEF9 /* Images.xcassets */,
