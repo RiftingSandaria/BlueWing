@@ -12,17 +12,17 @@
 #include "EaseOfAccesss.h"
 
 
-class Password
+class Entry
 {
 private:
     string websiteName;
     string userName;
-    string entry;
+    string password;
 public:
-    friend bool operator == (const Password pas1, const Password pas2);
-    friend bool operator != (const Password pas1, const Password pas2);
-    friend ostream& operator << (ostream& outs, Password pas);
-    friend istream& operator >> (istream& ins, Password pas);
+    friend bool operator == (const Entry pas1, const Entry pas2);
+    friend bool operator != (const Entry pas1, const Entry pas2);
+    friend ostream& operator << (ostream& outs, Entry pas);
+    friend istream& operator >> (istream& ins, Entry pas);
 };
 
 
