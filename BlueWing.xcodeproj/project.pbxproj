@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		392270401B02CF43008EF652 /* Memory_mangement.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3922703E1B02CF43008EF652 /* Memory_mangement.cpp */; };
 		39A472C81B02CE24002C07E5 /* BlueWing2.png in Resources */ = {isa = PBXBuildFile; fileRef = 39A472C61B02CE24002C07E5 /* BlueWing2.png */; };
 		39A472C91B02CE24002C07E5 /* BlueWing.png in Resources */ = {isa = PBXBuildFile; fileRef = 39A472C71B02CE24002C07E5 /* BlueWing.png */; };
 		39EF89751B02CCC4002FBEF9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 39EF89741B02CCC4002FBEF9 /* main.m */; };
@@ -31,6 +32,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3922703E1B02CF43008EF652 /* Memory_mangement.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Memory_mangement.cpp; sourceTree = "<group>"; };
+		3922703F1B02CF43008EF652 /* Memory_mangement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Memory_mangement.h; sourceTree = "<group>"; };
+		392270411B02CF50008EF652 /* EaseOfAccesss.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EaseOfAccesss.h; path = ../EaseOfAccesss.h; sourceTree = "<group>"; };
 		39A472C61B02CE24002C07E5 /* BlueWing2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BlueWing2.png; sourceTree = "<group>"; };
 		39A472C71B02CE24002C07E5 /* BlueWing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BlueWing.png; sourceTree = "<group>"; };
 		39EF896F1B02CCC4002FBEF9 /* BlueWing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlueWing.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -91,15 +95,18 @@
 		39EF89711B02CCC4002FBEF9 /* BlueWing */ = {
 			isa = PBXGroup;
 			children = (
+				392270411B02CF50008EF652 /* EaseOfAccesss.h */,
 				39EF89761B02CCC4002FBEF9 /* AppDelegate.h */,
-				39EF89771B02CCC4002FBEF9 /* AppDelegate.m */,
-				39EF89791B02CCC4002FBEF9 /* RootViewController.h */,
-				39EF897A1B02CCC4002FBEF9 /* RootViewController.m */,
 				39EF897C1B02CCC4002FBEF9 /* DataViewController.h */,
-				39EF897D1B02CCC4002FBEF9 /* DataViewController.m */,
 				39EF897F1B02CCC4002FBEF9 /* ModelController.h */,
+				39EF89791B02CCC4002FBEF9 /* RootViewController.h */,
+				3922703F1B02CF43008EF652 /* Memory_mangement.h */,
+				39EF89771B02CCC4002FBEF9 /* AppDelegate.m */,
+				39EF897A1B02CCC4002FBEF9 /* RootViewController.m */,
+				39EF897D1B02CCC4002FBEF9 /* DataViewController.m */,
 				39EF89801B02CCC4002FBEF9 /* ModelController.m */,
 				39EF89821B02CCC4002FBEF9 /* Main.storyboard */,
+				3922703E1B02CF43008EF652 /* Memory_mangement.cpp */,
 				39A472C61B02CE24002C07E5 /* BlueWing2.png */,
 				39A472C71B02CE24002C07E5 /* BlueWing.png */,
 				39EF89851B02CCC4002FBEF9 /* Images.xcassets */,
@@ -184,6 +191,7 @@
 				TargetAttributes = {
 					39EF896E1B02CCC4002FBEF9 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 9337GM5WZH;
 					};
 					39EF898D1B02CCC4002FBEF9 = {
 						CreatedOnToolsVersion = 6.3.1;
@@ -242,6 +250,7 @@
 				39EF89811B02CCC4002FBEF9 /* ModelController.m in Sources */,
 				39EF89751B02CCC4002FBEF9 /* main.m in Sources */,
 				39EF897B1B02CCC4002FBEF9 /* RootViewController.m in Sources */,
+				392270401B02CF43008EF652 /* Memory_mangement.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -367,9 +376,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = BlueWing/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -377,9 +389,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = BlueWing/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
