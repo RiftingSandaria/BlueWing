@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		39A472C81B02CE24002C07E5 /* BlueWing2.png in Resources */ = {isa = PBXBuildFile; fileRef = 39A472C61B02CE24002C07E5 /* BlueWing2.png */; };
+		39A472C91B02CE24002C07E5 /* BlueWing.png in Resources */ = {isa = PBXBuildFile; fileRef = 39A472C71B02CE24002C07E5 /* BlueWing.png */; };
 		39EF89751B02CCC4002FBEF9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 39EF89741B02CCC4002FBEF9 /* main.m */; };
 		39EF89781B02CCC4002FBEF9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 39EF89771B02CCC4002FBEF9 /* AppDelegate.m */; };
 		39EF897B1B02CCC4002FBEF9 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39EF897A1B02CCC4002FBEF9 /* RootViewController.m */; };
@@ -29,6 +31,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		39A472C61B02CE24002C07E5 /* BlueWing2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BlueWing2.png; sourceTree = "<group>"; };
+		39A472C71B02CE24002C07E5 /* BlueWing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BlueWing.png; sourceTree = "<group>"; };
 		39EF896F1B02CCC4002FBEF9 /* BlueWing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlueWing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		39EF89731B02CCC4002FBEF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		39EF89741B02CCC4002FBEF9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -96,6 +100,8 @@
 				39EF897F1B02CCC4002FBEF9 /* ModelController.h */,
 				39EF89801B02CCC4002FBEF9 /* ModelController.m */,
 				39EF89821B02CCC4002FBEF9 /* Main.storyboard */,
+				39A472C61B02CE24002C07E5 /* BlueWing2.png */,
+				39A472C71B02CE24002C07E5 /* BlueWing.png */,
 				39EF89851B02CCC4002FBEF9 /* Images.xcassets */,
 				39EF89871B02CCC4002FBEF9 /* LaunchScreen.xib */,
 				39EF89721B02CCC4002FBEF9 /* Supporting Files */,
@@ -212,6 +218,8 @@
 				39EF89841B02CCC4002FBEF9 /* Main.storyboard in Resources */,
 				39EF89891B02CCC4002FBEF9 /* LaunchScreen.xib in Resources */,
 				39EF89861B02CCC4002FBEF9 /* Images.xcassets in Resources */,
+				39A472C91B02CE24002C07E5 /* BlueWing.png in Resources */,
+				39A472C81B02CE24002C07E5 /* BlueWing2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,6 +436,7 @@
 				39EF899A1B02CCC4002FBEF9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		39EF899B1B02CCC4002FBEF9 /* Build configuration list for PBXNativeTarget "BlueWingTests" */ = {
 			isa = XCConfigurationList;
@@ -436,6 +445,7 @@
 				39EF899D1B02CCC4002FBEF9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
