@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		39EF89751B02CCC4002FBEF9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 39EF89741B02CCC4002FBEF9 /* main.m */; };
+		39EF89781B02CCC4002FBEF9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 39EF89771B02CCC4002FBEF9 /* AppDelegate.m */; };
+		39EF897B1B02CCC4002FBEF9 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39EF897A1B02CCC4002FBEF9 /* RootViewController.m */; };
+		39EF897E1B02CCC4002FBEF9 /* DataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39EF897D1B02CCC4002FBEF9 /* DataViewController.m */; };
+		39EF89811B02CCC4002FBEF9 /* ModelController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39EF89801B02CCC4002FBEF9 /* ModelController.m */; };
+		39EF89841B02CCC4002FBEF9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39EF89821B02CCC4002FBEF9 /* Main.storyboard */; };
+		39EF89861B02CCC4002FBEF9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39EF89851B02CCC4002FBEF9 /* Images.xcassets */; };
+		39EF89891B02CCC4002FBEF9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 39EF89871B02CCC4002FBEF9 /* LaunchScreen.xib */; };
+		39EF89951B02CCC4002FBEF9 /* BlueWingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 39EF89941B02CCC4002FBEF9 /* BlueWingTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		39EF898F1B02CCC4002FBEF9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 39EF89671B02CCC4002FBEF9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 39EF896E1B02CCC4002FBEF9;
+			remoteInfo = BlueWing;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		39EF896F1B02CCC4002FBEF9 /* BlueWing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlueWing.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		39EF89731B02CCC4002FBEF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39EF89741B02CCC4002FBEF9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		39EF89761B02CCC4002FBEF9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		39EF89771B02CCC4002FBEF9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		39EF89791B02CCC4002FBEF9 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		39EF897A1B02CCC4002FBEF9 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		39EF897C1B02CCC4002FBEF9 /* DataViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataViewController.h; sourceTree = "<group>"; };
+		39EF897D1B02CCC4002FBEF9 /* DataViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataViewController.m; sourceTree = "<group>"; };
+		39EF897F1B02CCC4002FBEF9 /* ModelController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModelController.h; sourceTree = "<group>"; };
+		39EF89801B02CCC4002FBEF9 /* ModelController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModelController.m; sourceTree = "<group>"; };
+		39EF89831B02CCC4002FBEF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		39EF89851B02CCC4002FBEF9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		39EF89881B02CCC4002FBEF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		39EF898E1B02CCC4002FBEF9 /* BlueWingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlueWingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		39EF89931B02CCC4002FBEF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39EF89941B02CCC4002FBEF9 /* BlueWingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlueWingTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		39EF896C1B02CCC4002FBEF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39EF898B1B02CCC4002FBEF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		39EF89661B02CCC4002FBEF9 = {
+			isa = PBXGroup;
+			children = (
+				39EF89711B02CCC4002FBEF9 /* BlueWing */,
+				39EF89911B02CCC4002FBEF9 /* BlueWingTests */,
+				39EF89701B02CCC4002FBEF9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		39EF89701B02CCC4002FBEF9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				39EF896F1B02CCC4002FBEF9 /* BlueWing.app */,
+				39EF898E1B02CCC4002FBEF9 /* BlueWingTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		39EF89711B02CCC4002FBEF9 /* BlueWing */ = {
+			isa = PBXGroup;
+			children = (
+				39EF89761B02CCC4002FBEF9 /* AppDelegate.h */,
+				39EF89771B02CCC4002FBEF9 /* AppDelegate.m */,
+				39EF89791B02CCC4002FBEF9 /* RootViewController.h */,
+				39EF897A1B02CCC4002FBEF9 /* RootViewController.m */,
+				39EF897C1B02CCC4002FBEF9 /* DataViewController.h */,
+				39EF897D1B02CCC4002FBEF9 /* DataViewController.m */,
+				39EF897F1B02CCC4002FBEF9 /* ModelController.h */,
+				39EF89801B02CCC4002FBEF9 /* ModelController.m */,
+				39EF89821B02CCC4002FBEF9 /* Main.storyboard */,
+				39EF89851B02CCC4002FBEF9 /* Images.xcassets */,
+				39EF89871B02CCC4002FBEF9 /* LaunchScreen.xib */,
+				39EF89721B02CCC4002FBEF9 /* Supporting Files */,
+			);
+			path = BlueWing;
+			sourceTree = "<group>";
+		};
+		39EF89721B02CCC4002FBEF9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				39EF89731B02CCC4002FBEF9 /* Info.plist */,
+				39EF89741B02CCC4002FBEF9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		39EF89911B02CCC4002FBEF9 /* BlueWingTests */ = {
+			isa = PBXGroup;
+			children = (
+				39EF89941B02CCC4002FBEF9 /* BlueWingTests.m */,
+				39EF89921B02CCC4002FBEF9 /* Supporting Files */,
+			);
+			path = BlueWingTests;
+			sourceTree = "<group>";
+		};
+		39EF89921B02CCC4002FBEF9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				39EF89931B02CCC4002FBEF9 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		39EF896E1B02CCC4002FBEF9 /* BlueWing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39EF89981B02CCC4002FBEF9 /* Build configuration list for PBXNativeTarget "BlueWing" */;
+			buildPhases = (
+				39EF896B1B02CCC4002FBEF9 /* Sources */,
+				39EF896C1B02CCC4002FBEF9 /* Frameworks */,
+				39EF896D1B02CCC4002FBEF9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BlueWing;
+			productName = BlueWing;
+			productReference = 39EF896F1B02CCC4002FBEF9 /* BlueWing.app */;
+			productType = "com.apple.product-type.application";
+		};
+		39EF898D1B02CCC4002FBEF9 /* BlueWingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39EF899B1B02CCC4002FBEF9 /* Build configuration list for PBXNativeTarget "BlueWingTests" */;
+			buildPhases = (
+				39EF898A1B02CCC4002FBEF9 /* Sources */,
+				39EF898B1B02CCC4002FBEF9 /* Frameworks */,
+				39EF898C1B02CCC4002FBEF9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				39EF89901B02CCC4002FBEF9 /* PBXTargetDependency */,
+			);
+			name = BlueWingTests;
+			productName = BlueWingTests;
+			productReference = 39EF898E1B02CCC4002FBEF9 /* BlueWingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		39EF89671B02CCC4002FBEF9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Mega Saga Industries";
+				TargetAttributes = {
+					39EF896E1B02CCC4002FBEF9 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					39EF898D1B02CCC4002FBEF9 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 39EF896E1B02CCC4002FBEF9;
+					};
+				};
+			};
+			buildConfigurationList = 39EF896A1B02CCC4002FBEF9 /* Build configuration list for PBXProject "BlueWing" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 39EF89661B02CCC4002FBEF9;
+			productRefGroup = 39EF89701B02CCC4002FBEF9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				39EF896E1B02CCC4002FBEF9 /* BlueWing */,
+				39EF898D1B02CCC4002FBEF9 /* BlueWingTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		39EF896D1B02CCC4002FBEF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39EF89841B02CCC4002FBEF9 /* Main.storyboard in Resources */,
+				39EF89891B02CCC4002FBEF9 /* LaunchScreen.xib in Resources */,
+				39EF89861B02CCC4002FBEF9 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39EF898C1B02CCC4002FBEF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		39EF896B1B02CCC4002FBEF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39EF897E1B02CCC4002FBEF9 /* DataViewController.m in Sources */,
+				39EF89781B02CCC4002FBEF9 /* AppDelegate.m in Sources */,
+				39EF89811B02CCC4002FBEF9 /* ModelController.m in Sources */,
+				39EF89751B02CCC4002FBEF9 /* main.m in Sources */,
+				39EF897B1B02CCC4002FBEF9 /* RootViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39EF898A1B02CCC4002FBEF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39EF89951B02CCC4002FBEF9 /* BlueWingTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		39EF89901B02CCC4002FBEF9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 39EF896E1B02CCC4002FBEF9 /* BlueWing */;
+			targetProxy = 39EF898F1B02CCC4002FBEF9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		39EF89821B02CCC4002FBEF9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				39EF89831B02CCC4002FBEF9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		39EF89871B02CCC4002FBEF9 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				39EF89881B02CCC4002FBEF9 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		39EF89961B02CCC4002FBEF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		39EF89971B02CCC4002FBEF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		39EF89991B02CCC4002FBEF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BlueWing/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		39EF899A1B02CCC4002FBEF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BlueWing/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		39EF899C1B02CCC4002FBEF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BlueWingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BlueWing.app/BlueWing";
+			};
+			name = Debug;
+		};
+		39EF899D1B02CCC4002FBEF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BlueWingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BlueWing.app/BlueWing";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		39EF896A1B02CCC4002FBEF9 /* Build configuration list for PBXProject "BlueWing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39EF89961B02CCC4002FBEF9 /* Debug */,
+				39EF89971B02CCC4002FBEF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39EF89981B02CCC4002FBEF9 /* Build configuration list for PBXNativeTarget "BlueWing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39EF89991B02CCC4002FBEF9 /* Debug */,
+				39EF899A1B02CCC4002FBEF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		39EF899B1B02CCC4002FBEF9 /* Build configuration list for PBXNativeTarget "BlueWingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39EF899C1B02CCC4002FBEF9 /* Debug */,
+				39EF899D1B02CCC4002FBEF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 39EF89671B02CCC4002FBEF9 /* Project object */;
+}
